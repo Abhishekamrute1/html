@@ -1,0 +1,17 @@
+body{
+    background-color: yellow;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+} 
+@media screen and (max-width:500px) {
+    body{
+        background-color: blue;
+    }
+    div{
+        border-radius: 50%;
+        background-color: pink;
+    }
+}

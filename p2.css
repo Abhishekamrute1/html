@@ -1,0 +1,46 @@
+div {  
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    overflow: hidden;  
+    background-color: black;  
+  } 
+    
+  li {  
+    float: left;  
+  }  
+    
+  li a {  
+    display: block;  
+    color:white;  
+   font-size:15px;  
+    text-align: center;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+  }  
+  .active{ 
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 20px; 
+  color:orangered;  
+  }  
+  button{
+    display: flex;
+    position: absolute;
+    background-color: orangered;
+    top: 30px;
+    right: 20px;
+  }
+  @media screen and (max-width:500px) {
+    div{
+        background-color: blue;
+    }
+    li{
+        border-radius: 50%;
+        background-color: pink;
+    }
+    button{
+      background-color: gold;
+    }
+}

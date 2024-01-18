@@ -1,0 +1,27 @@
+section{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+div{
+    display: flex;
+    /* display: inline block; */
+    width: 150px;
+    height: 150px;
+}
+div:nth-last-of-type(1){
+    background-color: blue;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+   
+}
+div:nth-last-of-type(2){
+    background-color: green;
+    /* flex-grow: 2; */
+    /* flex-shrink: 2; */
+}
+div:nth-last-of-type(3){
+    background-color: red;
+    /* flex-grow: 3; */
+    /* flex-shrink: 3; */
+}

@@ -1,0 +1,19 @@
+section{
+    width: 800px;
+    height: 800px;
+    border: 2px solid yellow;
+    margin: 30px auto;
+    display: grid;
+    grid-auto-flow: column;
+   grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px ;
+   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px ;    
+}
+div{
+    border: 1px solid green;   
+}
+.a{
+    background-color: white;
+}
+.b{
+    background-color: black;
+}

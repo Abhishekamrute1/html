@@ -1,0 +1,56 @@
+ #one{
+    background-color: black;
+ }
+
+#two {  
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    overflow: hidden; 
+  } 
+
+    
+  li {  
+    float: left;  
+  }  
+    
+  li a {  
+    display: block;  
+    color:white;  
+   font-size:15px;  
+    text-align: center;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+  }  
+  .active{ 
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    font-size: 20px; 
+  color:orangered;  
+  }  
+  #a1{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 35%;
+    background-color: orangered;
+    height: 30px;
+    width: 100px;
+    top: 30px;
+    right: 20px;
+  }
+  @media screen and (max-width:500px) {
+    div{
+        background-color: blue;
+    }
+    li{
+        border-radius: 50%;
+        background-color: pink;
+    }
+    #a1{
+      background-color: gold;
+    }
+}
